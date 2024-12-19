@@ -5,15 +5,6 @@ function App() {
   return (
     <>
       <header>
-        {/* <nav>
-          <ul className="navbar">
-            <li>
-              <img className="logo" src="/public/img/handcraftlogo.png" alt="Logo Handcraft" />
-            </li>
-            <li className='button'><a className="bg-beige rounded color-black fs-12" href="#">Découvrir les artisans</a></li>
-            <li className='button'><a className="bg-beige rounded color-black fs-12" href="#">Rejoidre la communauté</a></li>
-          </ul>
-        </nav> */}
         <div id="allNav">
           <div className="logo">
             <img src="../public/img/handcraftlogo.png" alt="logo Hand Craft" />
@@ -67,7 +58,7 @@ function App() {
             <img src="../public/img/1E9A1645-2-1-1152x1536 1.png" alt="" />
           </div>
         </div>
-        <div className="global-carre-blanc position-absolute bottom-5">
+        <div className="global-carre-blanc bottom-5">
           <div className="col-md-6">
             <h3 className="fw-bold text-center">Explorez.</h3>
             <p className='text-start'>
@@ -81,10 +72,52 @@ function App() {
             </p>
           </div>
         </div>
-        <div>
-
-        </div>
       </main>
+      <footer className='bg-main taille-footer'>
+        <div className='d-flex justify-content-around align-items-center footer-container'>
+          <div>
+            <p>handcraft</p>
+            <ul>
+              <li className='mb-3'><a>A propos</a></li>
+              <li className='mb-3'><a>L'équipe</a></li>
+              <li className='mb-3'><a>Le blog</a></li>
+              <li className='mb-3'><a>Notre réseau</a></li>
+              <li className='mb-3'><a>Nous contacter</a></li>
+            </ul>
+          </div>
+          <div>
+            <p>Notre communauté</p>
+            <ul>
+              <li className='mb-3'><a>Tous nos articles</a></li>
+              <li className='mb-3'><a>Les artisans du verre</a></li>
+              <li className='mb-3'><a>Les artisans de la<br />céramique</a></li>
+            </ul>
+          </div>
+          <div>
+            <p>Aide et informations</p>
+            <ul>
+              <li className='mb-3'><a>Devenir partenaires</a></li>
+              <li className='mb-3'><a>Conditions générales de vente</a></li>
+              <li className='mb-3'><a>Conditions générales d’utilisation</a></li>
+              <li className='mb-3'><a>Mentions légales</a></li>
+              <li className='mb-3'><a>Politique de confidentialité</a></li>
+            </ul>
+          </div>
+          <div>
+            <p>Réseaux sociaux</p>
+            <ul>
+              <li className='mb-3'><a>Instagram</a></li>
+              <li className='mb-3'><a>Facebook</a></li>
+              <li className='mb-3'><a>TikTok</a></li>
+              <li className='mb-3'><a>X</a></li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+        <div className='d-flex ms-5'>
+          <p>© 2021 Handcraft. Tous droits réservés.</p>
+        </div>
+      </footer>
     </>
   )
 }

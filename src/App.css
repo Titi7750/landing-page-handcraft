@@ -300,3 +300,7 @@ h1 {
   width: 40%;
   background-color: #E9DFC4;
 }
+
+.taille-footer {
+  height: 50vh;
+}
