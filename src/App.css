@@ -84,6 +84,90 @@ a {
   text-decoration: none;
 }
 
+/* Pour positionner les carrés */
+.overlay-square {
+  width: 80px;
+  /* Taille du carré */
+  height: 80px;
+  background-color: rgba(0, 0, 0, 0.3);
+  /* Couleur semi-transparente */
+  border-radius: 5px;
+  /* Coins arrondis */
+  z-index: 2;
+  /* Pour s'assurer que le carré est au-dessus de l'image */
+}
+
+.position-relative {
+  position: relative;
+}
+
+.img-fluid {
+  position: relative;
+  z-index: 1;
+  /* S'assurer que l'image est derrière */
+  object-fit: cover;
+  /* Pour ajuster l'image */
+}
+
+.overlay-square.top-0.start-0 {
+  top: 10px;
+  /* Positionnement par rapport au conteneur parent */
+  left: 10px;
+}
+
+/* Style du gros carré blanc */
+.white-box {
+  width: 100%;
+  /* S'étend sous l'image */
+  height: 100%;
+  /* Même hauteur que l'image */
+  background-color: white;
+  /* Couleur blanche */
+  border-radius: 15px;
+  /* Coins arrondis */
+  z-index: 1;
+  /* Placé derrière l'image */
+  top: 10px;
+  /* Décalage vertical */
+  left: 10px;
+  /* Décalage horizontal */
+  position: absolute;
+  /* Pour permettre le positionnement derrière */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  /* Optionnel : ajout d'une ombre */
+}
+
+/* Style des images */
+img {
+  z-index: 2;
+  /* L'image est au-dessus du carré blanc */
+  position: relative;
+}
+
+.fs-30 {
+  font-size: 30px;
+}
+
+.fs-20 {
+  font-size: 20px;
+}
+
+.fs-16 {
+  font-size: 16px;
+}
+
+.button {
+  display: inline-flex;
+  height: 50px;
+  padding: 10px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 20px;
+}
+
+
 /* Custom */
 
 header nav .navbar {
@@ -109,4 +193,43 @@ header nav ul .rounded {
   background-position: center;
   background-repeat: no-repeat;
   padding: 20px;
+}
+
+.global-first-section {
+  display: flex;
+  align-items: center;
+  gap: 44px;
+  align-self: stretch;
+  justify-content: center;
+}
+
+.global-second-section {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 44px;
+  justify-content: center;
+}
+
+.image-vase-fleur {
+  width: 385px;
+  height: 344px;
+  flex-shrink: 0;
+  border-radius: 20px;
+}
+
+.image-vase-main {
+  width: 363px;
+  height: 450px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  opacity: 0.7;
+}
+
+.global-made-in-france {
+  height: 397px;
+}
+
+.image-made-france {
+  border-radius: 20px;
 }
