@@ -167,7 +167,6 @@ img {
   border-radius: 20px;
 }
 
-
 /* Custom */
 
 header nav .navbar {
@@ -303,4 +302,23 @@ h1 {
 
 .taille-footer {
   height: 50vh;
+}
+
+.contact-card {
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.btn-custom {
+  background-color: #c5a882;
+  color: white;
+  border: none;
+}
+
+.email-input {
+  background-color: #d5ddc3;
+  border: none;
+  padding: 13px 22px;
+  border-radius: 20px;
+  width: 319px;
 }

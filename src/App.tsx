@@ -72,6 +72,34 @@ function App() {
             </p>
           </div>
         </div>
+        <div className="bg-beige p-5">
+          <div className="d-flex justify-content-center align-items-center">
+            <img src="../public/img/Assiette_plate_01_01-1.jpg" alt="Ceramic Plates" className="postion-relative rounded-5 w-25 h-25" />
+            <div className="contact-card position-absolute right-5 z-3">
+              <div className='bg-kaki p-5 color-white rounded-5'>
+                <h6 className='fw-bold mb-5'>Nous contacter</h6>
+                <p>
+                  handcraft<br />
+                  52 Rue du Chemin Vert<br />
+                  75011, Paris<br /><br />
+                  (+33) 6 12 34 56 78<br />
+                  contact@handcraft.fr
+                </p>
+              </div>
+            </div>
+            <div>
+              <h4 className="mb-3">Leurs créations vous intéresse ?</h4>
+              <p>Rentrez vos détails et recevez bi-mensuellement un<br />aperçu des dernières créations de nos artisans.</p>
+              <form>
+                <div className="mb-3">
+                  <label htmlFor="email" className="form-label">Adresse mail</label>
+                  <input type="email" className="form-control email-input" id="email" placeholder="Votre adresse mail" />
+                </div>
+                <button type="submit" className="btn btn-custom p-3 rounded-">Inscription</button>
+              </form>
+            </div>
+          </div>
+        </div>
       </main>
       <footer className='bg-main taille-footer'>
         <div className='d-flex justify-content-around align-items-center footer-container'>
