@@ -5,7 +5,7 @@ function App() {
   return (
     <>
       <header>
-        <nav>
+        {/* <nav>
           <ul className="navbar">
             <li>
               <img className="logo" src="/public/img/handcraftlogo.png" alt="Logo Handcraft" />
@@ -13,7 +13,23 @@ function App() {
             <li className='button'><a className="bg-beige rounded color-black fs-12" href="#">Découvrir les artisans</a></li>
             <li className='button'><a className="bg-beige rounded color-black fs-12" href="#">Rejoidre la communauté</a></li>
           </ul>
-        </nav>
+        </nav> */}
+        <div id="allNav">
+          <div className="logo">
+            <img src="../public/img/handcraftlogo.png" alt="logo Hand Craft" />
+          </div>
+          <div className="log">
+            <button>Découvrir les artisans</button>
+            <button>Notre sélection de produits</button>
+          </div>
+        </div>
+        <div className="mainImage">
+          <div className="text">
+            <div className="textContainer">
+              <h1>Les plus belles oeuvres en verre ou en céramique faits main, par une séléction d’artisans éthiques.</h1>
+            </div>
+          </div>
+        </div>
       </header>
       <main>
         <div className='bg-main global-main-section'>
@@ -51,19 +67,22 @@ function App() {
             <img src="../public/img/1E9A1645-2-1-1152x1536 1.png" alt="" />
           </div>
         </div>
-        <div className="row mt-4">
+        <div className="global-carre-blanc position-absolute bottom-5">
           <div className="col-md-6">
-            <h3 className="fw-bold">Explorez.</h3>
-            <p>
-              Soyez parmi les premiers à explorer l’univers fascinant de nos souffleurs de verre et céramistes. Chaque pièce est une invitation à découvrir des créations uniques.
+            <h3 className="fw-bold text-center">Explorez.</h3>
+            <p className='text-start'>
+              Soyez parmi les premiers à explorer l’univers fascinant de nos souffleurs de verre et céramistes. Chaque pièce est une invitation à découvrir des créations uniques, alliant techniques traditionnelles et innovations artistiques. Parcourez nos catalogues et laissez-vous séduire par leurs styles authentiques, souvent inspirés par la nature, la culture et l'histoire.
             </p>
           </div>
           <div className="col-md-6">
-            <h3 className="fw-bold">Soutenez.</h3>
-            <p>
-              En achetant les créations uniques de nos artisans, vous contribuez directement à la valorisation de leur savoir-faire local.
+            <h3 className="fw-bold text-center">Soutenez.</h3>
+            <p className='text-start'>
+              En achetant les créations uniques de nos artisans céramistes et souffleurs de verre, vous contribuez directement à la valorisation de leur savoir-faire local. Chaque achat, chaque geste, comme ajouter un produit à vos favoris, permet à ces artisans talentueux de gagner en visibilité et de pérenniser leur activité. Ensemble, soutenons la création artisanale et offrons une nouvelle vie aux artisans parisiens.
             </p>
           </div>
+        </div>
+        <div>
+
         </div>
       </main>
     </>
