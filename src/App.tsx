@@ -50,26 +50,26 @@ function App() {
             <img src='../public/img/Frame_ecoresponsable.png' alt="Eco-friendly" />
           </div>
         </div>
-        <div className='p-5'>
+        <div className='global-gros-carre-blanc p-5'>
           <h3 className='fw-bold text-center mb-2'>Découvrez une communauté<br />de passionnés.</h3>
-          <div className='d-flex justify-content-center align-items-center'>
+          <div className='d-flex justify-content-center align-items-center mb-100'>
             <img src="../public/img/media-ceramiste-savoir 1.png" alt="" />
             <img src="../public/img/Image 2.png" alt="" />
             <img src="../public/img/1E9A1645-2-1-1152x1536 1.png" alt="" />
           </div>
-        </div>
-        <div className="global-carre-blanc bottom-5">
-          <div className="col-md-6">
-            <h3 className="fw-bold text-center">Explorez.</h3>
-            <p className='text-start'>
-              Soyez parmi les premiers à explorer l’univers fascinant de nos souffleurs de verre et céramistes. Chaque pièce est une invitation à découvrir des créations uniques, alliant techniques traditionnelles et innovations artistiques. Parcourez nos catalogues et laissez-vous séduire par leurs styles authentiques, souvent inspirés par la nature, la culture et l'histoire.
-            </p>
-          </div>
-          <div className="col-md-6">
-            <h3 className="fw-bold text-center">Soutenez.</h3>
-            <p className='text-start'>
-              En achetant les créations uniques de nos artisans céramistes et souffleurs de verre, vous contribuez directement à la valorisation de leur savoir-faire local. Chaque achat, chaque geste, comme ajouter un produit à vos favoris, permet à ces artisans talentueux de gagner en visibilité et de pérenniser leur activité. Ensemble, soutenons la création artisanale et offrons une nouvelle vie aux artisans parisiens.
-            </p>
+          <div className="global-carre-blanc bottom-5">
+            <div className="col-md-6">
+              <h3 className="fw-bold text-center">Explorez.</h3>
+              <p className='text-start'>
+                Soyez parmi les premiers à explorer l’univers fascinant de nos souffleurs de verre et céramistes. Chaque pièce est une invitation à découvrir des créations uniques, alliant techniques traditionnelles et innovations artistiques. Parcourez nos catalogues et laissez-vous séduire par leurs styles authentiques, souvent inspirés par la nature, la culture et l'histoire.
+              </p>
+            </div>
+            <div className="col-md-6">
+              <h3 className="fw-bold text-center">Soutenez.</h3>
+              <p className='text-start'>
+                En achetant les créations uniques de nos artisans céramistes et souffleurs de verre, vous contribuez directement à la valorisation de leur savoir-faire local. Chaque achat, chaque geste, comme ajouter un produit à vos favoris, permet à ces artisans talentueux de gagner en visibilité et de pérenniser leur activité. Ensemble, soutenons la création artisanale et offrons une nouvelle vie aux artisans parisiens.
+              </p>
+            </div>
           </div>
         </div>
         <div className="bg-beige p-5">

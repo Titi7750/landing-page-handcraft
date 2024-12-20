@@ -228,14 +228,26 @@ header nav ul .rounded {
   border-radius: 20px;
 }
 
+.global-gros-carre-blanc {
+  position: relative;
+}
+
 .global-carre-blanc {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: auto;
   width: 720px;
-  border: #000000 solid 1px;
-  z-index: 1;
+  z-index: 2;
+  position: absolute;
+  left: 25%;
+  top: 50%;
+  background-color: white;
+  padding: 20px;
+}
+
+.mb-100 {
+  margin-bottom: 100px;
 }
 
 .mainImage {
