@@ -1,8 +1,10 @@
 import './Artisan.scss'
+
+import HF from '../../public/img/high-five 1.png'
 const Artisan = () => {
   return (
     <div id='container'> 
-      <div className="mainImage">
+      <div className="mainImageAristan">
         <div className="text">
           <div className="textContainer">
             <h1>Votre talent mérite d'être vu. 
@@ -26,7 +28,7 @@ const Artisan = () => {
           </div>
           <div className="contentDesc">
             <div className="content-text">
-              <h2>Grâce à notre plateforme, vous accédez à une large audience d'amateurs d'artisanat et de produits uniques. Pas besoin d'être un expert en marketing : nous nous occupons de faire briller vos créations.</h2>
+              <h2>Une mise en avant de vos valeurs.</h2>
               <p>Nous mettons en lumière l'histoire de chaque artisan et la passion derrière chaque création. Les acheteurs ne verront pas seulement un produit, mais tout le savoir-faire et l'effort qu'il représente.</p>
             </div>
             <div className="content-img" id='img-2'/>
@@ -40,20 +42,85 @@ const Artisan = () => {
           </div>
         </div>
           <div className="artisanSell">
-            <h1>Commencez à <span>vendre</span> vos créations aujourd'hui.</h1>
-            <button className='btn'>S'incrire</button>
+            <div className="Artborder">
+              <img src={HF} alt="" />
+              <h1>Commencez à vendre <br/> vos créations aujourd'hui.</h1>
+              <button className='btn rounded-pill'>S'incrire</button>
+            </div>
           </div>
-          
         </div>
 
         <div className="questions">
           <h1>Des réponses à vos questions.</h1>
           <div className="answers">
-            <div className="answer"></div>
-            <div className="answer"></div>
-            <div className="answer"></div>
-            <div className="answer"></div>
-            <div className="answer"></div>
+          <div className="accordion border-0" id="accordionExample">
+
+              <div className="accordion-item border-0 bg-transparent">
+                <h2 className="accordion-header">
+                  <button className="accordion-button bg-transparent" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Quels sont les critères pour rejoindre handcraft ?
+                  </button>
+                </h2>
+                <div id="collapseOne" className="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                  <div className="accordion-body">
+                  Non. S'inscrire sur la plateforme est 100% gratuit et ne présente aucun abonnement.
+                  </div>
+                </div>
+              </div>
+
+              <div className="accordion-item border-0 bg-transparent">
+                <h2 className="accordion-header">
+                  <button className="accordion-button bg-transparent collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Dois-je payer des frais d'inscription ou d'abonnement ?
+                  </button>
+                </h2>
+                <div id="collapseTwo" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div className="accordion-body">
+                  Les fonds disponibles sur le compte “artisan handcraft”  peuvent être transférés automatiquement ou manuellement sur le compte bancaire du vendeur, quasi-instantané.
+                  </div>
+                </div>
+              </div>
+
+              <div className="accordion-item border-0 bg-transparent">
+                <h2 className="accordion-header">
+                  <button className="accordion-button bg-transparent collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Comment suis-je payé pour mes ventes ?
+                  </button>
+                </h2>
+                <div id="collapseThree" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div className="accordion-body">
+                  Nous appliquons une commission de 5 % sur chaque vente, ainsi que les éventuels frais de traitement des paiements, qui sont affichés en toute transparence sur votre tableau de bord "artisan handcraft".
+                  </div>
+                </div>
+              </div>
+
+              <div className="accordion-item border-0 bg-transparent">
+                <h2 className="accordion-header">
+                  <button className="accordion-button bg-transparent collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapsFour">
+                  Suis-je responsable de la gestion des taxes sur mes ventes ?
+                  </button>
+                </h2>
+                <div id="collapseFour" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div className="accordion-body">
+                  Chez handcraft, nous primons la mise en avant de nos artisans et créateurs. Nous mettons en avant un nouvel artiste chaque semaine, manuellement.
+                  </div>
+                </div>
+              </div>
+
+              <div className="accordion-item border-0 bg-transparent">
+                <h2 className="accordion-header">
+                  <button className="accordion-button bg-transparent collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                  Comment puis-je apparaître dans les sélections mises en avant sur la plateforme ?
+                  </button>
+                </h2>
+                <div id="collapseFive" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div className="accordion-body">
+                    Chez handcraft, nous primons la mise en avant de nos artisans et créateurs. Nous mettons en avant un nouvel artiste chaque semaine, manuellement.
+                  </div>
+                </div>
+              </div>
+
+            </div>
           </div>
         </div>
         <footer className='bg-main taille-footer'>

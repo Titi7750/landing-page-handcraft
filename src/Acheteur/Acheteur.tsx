@@ -3,19 +3,10 @@ function Acheteur() {
   return (
     <>
       <header>
-        <div id="allNav">
-          <div className="logo">
-            <img src="../public/img/handcraftlogo.png" alt="logo Hand Craft" />
-          </div>
-          <div className="log">
-            <button>Découvrir les artisans</button>
-            <button>Notre sélection de produits</button>
-          </div>
-        </div>
         <div className="mainImage">
           <div className="text">
             <div className="textContainer">
-              <h1>Les plus belles oeuvres en verre ou en céramique faits main, par une séléction d’artisans éthiques.</h1>
+              <h1>Les plus belles oeuvres en verre ou en céramique faits main, par une séléction d'artisans éthiques.</h1>
             </div>
           </div>
         </div>
@@ -31,7 +22,7 @@ function Acheteur() {
           </div>
           <div className='global-second-section'>
             <div className=''>
-              <h2 className='fs-30 fw-bold text-start'>Découvrez un <span className='color-kaki'>savoir-faire<br />artisanal</span>, dans le <span className='color-kaki'>respect<br />de l’environnement.</span></h2>
+              <h2 className='fs-30 fw-bold text-start'>Découvrez un <span className='color-kaki'>savoir-faire<br />artisanal</span>, dans le <span className='color-kaki'>respect<br />de l'environnement.</span></h2>
               <img className='image-vase-fleur' src='../public/img/02_Vase-plug-LEmbellie.jpeg' alt='' />
             </div>
             <img className='image-vase-main' src="../public/img/AdobeStock_484867951.jpeg" alt="Vase main" />
@@ -41,8 +32,8 @@ function Acheteur() {
           <div>
             <img className='image-made-france mb-4' src="../public/img/made-in-france.png" alt="Made in France" />
             <h4 className='mb-4 color-white fs-20'>Certifié Made in France</h4>
-            <p className='mb-4 color-white fs-16'>Nos artisans partenaires certifient l’origine tracée des produits.
-              <br /> Sous cette marque collective, nos artisans bénéficient d’un rayonnement national.</p>
+            <p className='mb-4 color-white fs-16'>Nos artisans partenaires certifient l'origine tracée des produits.
+              <br /> Sous cette marque collective, nos artisans bénéficient d'un rayonnement national.</p>
           </div>
           <div>
             <img src='../public/img/Frame_ecoresponsable.png' alt="Eco-friendly" />
@@ -59,7 +50,7 @@ function Acheteur() {
             <div className="col-md-6">
               <h3 className="fw-bold text-center">Explorez.</h3>
               <p className='text-start'>
-                Soyez parmi les premiers à explorer l’univers fascinant de nos souffleurs de verre et céramistes. Chaque pièce est une invitation à découvrir des créations uniques, alliant techniques traditionnelles et innovations artistiques. Parcourez nos catalogues et laissez-vous séduire par leurs styles authentiques, souvent inspirés par la nature, la culture et l'histoire.
+                Soyez parmi les premiers à explorer l'univers fascinant de nos souffleurs de verre et céramistes. Chaque pièce est une invitation à découvrir des créations uniques, alliant techniques traditionnelles et innovations artistiques. Parcourez nos catalogues et laissez-vous séduire par leurs styles authentiques, souvent inspirés par la nature, la culture et l'histoire.
               </p>
             </div>
             <div className="col-md-6">
@@ -124,7 +115,7 @@ function Acheteur() {
             <ul>
               <li className='mb-3'><a>Devenir partenaires</a></li>
               <li className='mb-3'><a>Conditions générales de vente</a></li>
-              <li className='mb-3'><a>Conditions générales d’utilisation</a></li>
+              <li className='mb-3'><a>Conditions générales d'utilisation</a></li>
               <li className='mb-3'><a>Mentions légales</a></li>
               <li className='mb-3'><a>Politique de confidentialité</a></li>
             </ul>

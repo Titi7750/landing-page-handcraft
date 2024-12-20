@@ -19,8 +19,8 @@ export const NavBar = () => {
       <img src="../public/img/handcraftlogo.png" alt="logo Hand Craft" />
     </div>
     <div className="log">
-        <button onClick={() => goArtisan()}>Vous êtes un artisan ?</button>
-        <button onClick={() => goAcheteur()}>Découvrir notre univers</button>
+        <button className="h-50" onClick={() => goArtisan()}>Vous êtes un artisan ?</button>
+        <button className="h-50" onClick={() => goAcheteur()}>Découvrir notre univers</button>
     </div>
   </div>
 )
