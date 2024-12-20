@@ -7,7 +7,9 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "vite:build": "vite build",
+    "remix vite:build": "remix build && vite build"
   },
   "dependencies": {
     "bootstrap": "^5.3.3",
