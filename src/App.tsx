@@ -74,8 +74,8 @@ function App() {
         </div>
         <div className="bg-beige p-5">
           <div className="d-flex justify-content-center align-items-center">
-            <img src="../public/img/Assiette_plate_01_01-1.jpg" alt="Ceramic Plates" className="postion-relative rounded-5 w-25 h-25" />
-            <div className="contact-card position-absolute right-5 z-3">
+            <img src="../public/img/Assiette_plate_01_01-1.jpg" alt="Ceramic Plates" className="postion-relative rounded-5 w-25 h-25 me-5" />
+            {/* <div className="contact-card z-3">
               <div className='bg-kaki p-5 color-white rounded-5'>
                 <h6 className='fw-bold mb-5'>Nous contacter</h6>
                 <p>
@@ -86,7 +86,7 @@ function App() {
                   contact@handcraft.fr
                 </p>
               </div>
-            </div>
+            </div> */}
             <div>
               <h4 className="mb-3">Leurs créations vous intéresse ?</h4>
               <p>Rentrez vos détails et recevez bi-mensuellement un<br />aperçu des dernières créations de nos artisans.</p>

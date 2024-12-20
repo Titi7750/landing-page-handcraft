@@ -319,6 +319,8 @@ h1 {
 .contact-card {
   padding: 20px;
   border-radius: 10px;
+  position: absolute;
+  right: 600px;
 }
 
 .btn-custom {
