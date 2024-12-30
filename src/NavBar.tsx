@@ -5,6 +5,8 @@ export const NavBar = () => {
 
   const navigate = useNavigate()
 
+  const logo = "../public/img/handcraftlogo.png"
+
   const goAcheteur = () => {
     navigate("/")
   }
@@ -16,7 +18,7 @@ export const NavBar = () => {
   return (
     <div id="allNav">
     <div className="logo">
-      <img src="../public/img/handcraftlogo.png" alt="logo Hand Craft" />
+      <img src={logo} alt="logo Hand Craft" />
     </div>
     <div className="log">
         <button className="h-50" onClick={() => goArtisan()}>Vous êtes un artisan ?</button>
