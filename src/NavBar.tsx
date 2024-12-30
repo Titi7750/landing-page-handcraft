@@ -1,11 +1,10 @@
 
 import { useNavigate } from "react-router-dom"
+import HP from "../public/img/handcraftlogo.png"
 
 export const NavBar = () => {
 
   const navigate = useNavigate()
-
-  const logo = "../public/img/handcraftlogo.png"
 
   const goAcheteur = () => {
     navigate("/")
@@ -18,7 +17,7 @@ export const NavBar = () => {
   return (
     <div id="allNav">
     <div className="logo">
-      <img src={logo} alt="logo Hand Craft" />
+      <img src={HP} alt="logo Hand Craft" />
     </div>
     <div className="log">
         <button className="h-50" onClick={() => goArtisan()}>Vous êtes un artisan ?</button>
