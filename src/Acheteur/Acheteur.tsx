@@ -1,13 +1,13 @@
-import image from '../public/img/Murano-Moyen-Smoky-Transparent-4-1200x1600.webp';
-import image2 from '../public/img/laurettebroll_imageprincipale-7.jpg';
-import image3 from '../public/img/02_Vase-plug-LEmbellie.jpeg';
-import image4 from '../public/img/AdobeStock_484867951.jpeg';
-import image5 from '../public/img/made-in-france.png';
-import image6 from '../public/img/Frame_ecoresponsable.png';
-import image7 from '../public/img/media-ceramiste-savoir 1.png';
-import image8 from '../public/img/Image 2.png';
-import image9 from '../public/img/1E9A1645-2-1-1152x1536 1.png';
-import image10 from '../public/img/Assiette_plate_01_01-1.jpg';
+import image from '../../public/img/Murano-Moyen-Smoky-Transparent-4-1200x1600.jpg';
+import image2 from '../../public/img/laurettebroll_imageprincipale-7.jpg';
+import image3 from '../../public/img/02_Vase-plug-LEmbellie.jpeg';
+import image4 from '../../public/img/AdobeStock_484867951.jpeg';
+import image5 from '../../public/img/made-in-france.png';
+import image6 from '../../public/img/Frame_ecoresponsable.png';
+import image7 from '../../public/img/media-ceramiste-savoir 1.png';
+import image8 from '../../public/img/Image 2.png';
+import image9 from '../../public/img/1E9A1645-2-1-1152x1536 1.png';
+import image10 from '../../public/img/Assiette_plate_01_01-1.jpg';
 
 function Acheteur() {
   return (
